@@ -27,7 +27,7 @@ We use soft margin svm and the result is 81407.3263723.
 # Milestone 3
 We have done PCA and SVD for dimensionality reduction for our training data. Since the biger score of eigenvalue the more important that dimension can be, we plot the firgue of first 100 eigenvalues(descending order) and calculate the number of eigencalues that contains 90% information for both methods. In PCA, we choose the first 28 eigenvalues and in SVD, we choose the first 107 eigenvalues. Then transform the original data to the projection to the new dimensionality calculated by PCA and SVD to form our new training data. 
 
-Performance comparison(RMSE) by using PCA
+We also have accomplished neural network with our full dataset and the dataset after using PCA and SVD dimensionality reduction. Performance comparisons(RMSE) are as following.
 
 |  | full-data | PCA | SVD |
 | -------------| ------------- | ------------- | ------------- |
