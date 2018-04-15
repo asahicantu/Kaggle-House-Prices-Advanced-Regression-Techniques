@@ -23,3 +23,16 @@ We have done gaussain process with 2 different kernels of rbf and dot product an
 For gaussain process, we also draw the coeffients of variants in each fold of test to show the uncertainty of each prediction. The whole picture contains the true values-red points, predictions-blue poitns and uncertainties-blue area. Therefore, we can get 10 pictures for each keneral and it's easy for us to see the performance of using those gaussian process. The results of using rbf kernel is 38828.0679446 and using dot product kenerl is 34292.8709243 with smaller uncertainty overall showed by picture.
 
 We use soft margin svm and the result is 81407.3263723.
+
+# Milestone 3
+We have done PCA and SVD for dimensionality reduction for our training data. Since the biger score of eigenvalue the more important that dimension can be, we plot the firgue of first 100 eigenvalues(descending order) and calculate the number of eigencalues that contains 90% information for both methods. In PCA, we choose the first 28 eigenvalues and in SVD, we choose the first 107 eigenvalues. Then transform the original data to the projection to the new dimensionality calculated by PCA and SVD to form our new training data. 
+
+Performance comparison(RMSE) by using PCA
+
+|  | full-data | PCA | SVD |
+| -------------| ------------- | ------------- | ------------- |
+| Linear Regression | 34539.1615156  | 34484.0908176  | 32017.0904093  |
+| Random Forest | 31976.8441112  | 31216.2050758  | 32260.5613001  |
+| Gaussian Process (dot product) | 34292.8709243  | 34499.0931218  | 31971.9657388 |
+| Neural Network | 31103.6747775  | 34864.4405225  | 31542.5468814 |
+
