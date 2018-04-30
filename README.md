@@ -37,7 +37,7 @@ We also have accomplished neural network with our full dataset and the dataset a
 | Neural Network | 31103.6747775  | 34864.4405225  | 31542.5468814 |
 
 # Milestone 4
-
+In this part, we test all the models we have done before on the house pricing dataset with 10 times reruns of a 10-fold cross-validation. Results for each models come from the same data with matching randomization and partitions.
 Performance comparisons(RMSE) on original data are as following:
 
 |  | Linear Regression | Random Forest | GaussianProcess | SVM | Neural Network |
@@ -68,3 +68,5 @@ Performance comparisons(RMSE) on PCAed data are as following:
 | Split8(seed=7) | 35592.519315 | 31428.491511 | 46940.566860 | 81443.650866 |  |
 | Split9(seed=8) | 35675.491278 | 31219.007717 | 47369.515381 | 81489.337749 |  |
 | Split10(seed=9) | 35180.270529 | 31230.810408 | 47298.739515 | 81440.942587 |  |
+
+Based on above result, we apply a statistical test, t-test, and the final comparision result is as following shows:
