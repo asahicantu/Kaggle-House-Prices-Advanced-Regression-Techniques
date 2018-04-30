@@ -37,7 +37,7 @@ We also have accomplished neural network with our full dataset and the dataset a
 | Neural Network | 31103.6747775  | 34864.4405225  | 31542.5468814 |
 
 # Milestone 4
-In this part, we test all the models we have done before on the house pricing dataset with 10 times reruns of a 10-fold cross-validation. Results for each models come from the same data with matching randomization and partitions.
+In this part, we test all the models we have done before both on the original house pricing dataset and dimensionality reduced dataset by PCA and here we use 10 times reruns of a 10-fold cross-validation. Results for each models come from the same data with matching randomization and partitions (specified by random seed).
 Performance comparisons(RMSE) on original data are as following:
 
 |  | Linear Regression | Random Forest | GaussianProcess | SVM | Neural Network |
