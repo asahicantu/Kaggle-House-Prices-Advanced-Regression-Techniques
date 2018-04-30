@@ -39,6 +39,7 @@ We also have accomplished neural network with our full dataset and the dataset a
 # Milestone 4
 
 Performance comparisons(RMSE) on original data are as following:
+
 |  | Linear Regression | Random Forest | GaussianProcess | SVM | Neural Network |
 | -------------| ------------- | ------------- | ------------- | ------------- | ------------- |
 | Split1(seed=0) | 36413.526238 | 31567.423191 | 38294.871308 | 81436.989616 | 32276.456527 |
@@ -54,6 +55,7 @@ Performance comparisons(RMSE) on original data are as following:
 
 
 Performance comparisons(RMSE) on PCAed data are as following:
+
 |  | Linear Regression | Random Forest | GaussianProcess | SVM | Neural Network |
 | -------------| ------------- | ------------- | ------------- | ------------- | ------------- |
 | Split1(seed=0) | 35497.783260 | 31388.723758 | 47082.409767 | 81419.927450 |  |
