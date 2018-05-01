@@ -69,4 +69,4 @@ Performance comparisons(RMSE) on PCAed data are as following:
 | Split9(seed=8) | 35675.491278 | 31219.007717 | 47369.515381 | 81489.337749 | 36907.278551 |
 | Split10(seed=9) | 35180.270529 | 31230.810408 | 47298.739515 | 81440.942587 | 35196.106739 |
 
-Based on above result, we apply a statistical test, t-test, and the final comparision result is as following shows:
+Based on above result, we apply a statistical test, t-test, on the bunch of reruns result. From t-test, we get a sense that random forest perform significantly better than other four algorithm on this dataset and neural network ranked second which is very surprising to us. And dimension reduction by principal component analysis didn't help here and even make all algorithm the performance worse on the house pricing dataset and only give a very little help for SVM.
